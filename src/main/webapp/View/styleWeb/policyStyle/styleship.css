@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift, sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(198, 225, 246, 0.5), rgba(251, 214, 227, 0.5));
+}
+
+header {
+    background: linear-gradient(90deg, rgba(198, 225, 246, 0.8), rgba(251, 214, 227, 0.8));
+    display: flex;
+    position: relative;
+
+}
+
+.menuPolicy {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 40%;
+}
+
+.link {
+    padding: 38px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    color: brown;
+}
+
+.link:hover {
+    background-color: #9799BA;
+    color: white;
+    box-shadow: 0 0 5px gray;
+}
+
+.logo {
+    width: 80px;
+    margin: 5px;
+}
+
+.undoHome {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+
+}
+
+.undoHome>h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider {
+    width: 100%;
+    background: rgb(209, 244, 255);
+    display: flex;
+    place-content: center;
+    box-shadow: 0 0 2px gray;
+}
+
+.sticker {
+    width: 400px;
+}
+
+.InArea,
+.OutArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid brown;
+}
+
+.titleInArea,
+.titleOutArea {
+    border-radius: 60px;
+    padding: 20px 40px;
+    background: #B2C2DC;
+    color: #59597D;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.commit {
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 23px;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 300;
+}
+
+.pic {
+    width: 300px;
+}
+
+.intro {
+    background-color: rgb(238, 238, 238);
+    padding: 5px;
+}
+
+.t1 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #a62c2c;
+}
+
+.ship {
+    margin-top: 5px;
+    color: #a62c2c;
+    font-size: 20px;
+}
+
+.timeArea {
+    margin-top: 2%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #a62c2c;
+}
+
+.time1 {
+    margin: 4px;
+
+}
+
+.timeConfirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #B2C2DC;
+    color: #59597D;
+}
+
+.timeConfirm>p {
+    color: #59597D;
+    font-size: 20px;
+}
+
+.timeConfirm>h1 {
+    color: #59597D;
+    font-size: 50px;
+}
+
+.comment {
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+
+.typeship {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.border {
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.typeship .border .haveCOD,
+.noCOD {
+    background: #B2C2DC;
+    color: #59597D;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.fa-box,
+.fa-credit-card {
+    position: absolute;
+    left: -20px;
+    top: -30px;
+    color: #a62c2c;
+    font-size: 30px;
+    padding: 20px;
+    background: rgba(255, 128, 128, 0.5);
+}
+
+
+
+.typePay .cod {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #B2C2DC;
+    color: #59597D;
+}
+
+.typePay .cod .namePay {
+    width: 25%;
+    border: 2px solid white;
+    padding: 30px;
+
+}
+
+.typePay .cod .formPay {
+    width: 75%;
+    border: 2px solid white;
+    padding: 30px;
+}
+
+.typePay .noCod {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    background: #B2C2DC;
+    color: #59597D;
+}
+
+.typePay .noCod .namePay {
+    width: 25%;
+    border: 2px solid white;
+    padding: 30px;
+}
+
+.typePay .noCod .formPay {
+    width: 75%;
+    border: 2px solid white;
+    padding: 30px;
+}

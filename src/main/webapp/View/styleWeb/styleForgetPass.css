@@ -1,0 +1,107 @@
+@media screen and (min-width: 1025px) {
+    /* CSS rules for screens larger than 1024px */
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    body {
+        background: linear-gradient(90deg, rgba(198, 225, 246, 0.5), rgba(251, 214, 227, 0.5));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    #container {
+        background-color: rgb(255, 255, 255);
+        width: 40%;
+        margin-top: 10%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+        border-bottom: 1px solid #FF8080FF;
+    }
+    .header > p{
+        font-size: 25px;
+        color: black;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        margin: 15px 20px;
+    }
+
+    .center>input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #FF8080FF;
+        font-size: 20px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .button> a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button> a >input {
+        width: 50%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #764F4C;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .footer>p {
+        text-transform: none;
+        color: #ff8080;
+        text-transform: uppercase;
+    }
+
+    .footer>a {
+        text-decoration: none;
+        color: #7c3d25;
+    }
+    input{
+        padding: 15px 20px;
+        text-transform: uppercase;
+        background-color: var(--back-product);
+        color: var(--font-o);
+    }
+}

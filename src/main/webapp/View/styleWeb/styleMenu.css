@@ -1,0 +1,254 @@
+@media screen and (min-width: 1025px) {
+    /* CSS rules for screens larger than 1024px */
+    #main-container li {
+        text-transform: uppercase;
+        line-height: 2.8;
+    }
+
+    li > a {
+        text-decoration: none;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: brown;
+    }
+
+    .logo h1 {
+        color: brown;
+        font-family: 'Brush Script MT', cursive;
+        cursor: pointer;
+
+    }
+
+    .logo > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main_menu {
+        background: linear-gradient(90deg, rgba(198, 225, 246, 0.8), rgba(251, 214, 227, 0.8));
+        position: relative;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .list_item {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .menu_item {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-items: center;
+        gap: 30px;
+        font-weight: 400;
+        font-size: 21px;
+    }
+
+    .dropdown > .item:hover {
+        border-radius: 5px;
+        border: 2px solid #ff8080;
+    }
+
+    .dropdown > .item {
+        border-radius: 5px;
+        border: 2px solid #ff8080;
+    }
+
+    .item > a:hover {
+        color: #b98c71;
+        cursor: pointer;
+    }
+
+    .item:hover > a > .fa-chevron-down {
+        transform: rotate(90deg);
+    }
+
+    .task_item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .task_item > li {
+        list-style: none;
+    }
+
+    .task {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .task_item {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo_item {
+        margin: 10px;
+        position: relative;
+    }
+
+    .item {
+        position: relative;
+    }
+
+    .menu_item > .item::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        list-style: none;
+        top: calc(100% + 38px);
+        border-radius: 20px;
+        z-index: 2;
+
+    }
+
+
+    .item:hover .dropdown {
+        display: block;
+
+    }
+
+    .sub_item {
+        background-color: white;
+        border-bottom: 1px solid gray;
+        padding: 15px 10px 15px 0px;
+    }
+
+    .sub_item:hover > a {
+        color: #a62c2c;
+        background: linear-gradient(90deg, rgba(198, 225, 246, 0.8), rgba(251, 214, 227, 0.8));
+    }
+
+    .sub_item > a:hover,
+    .sub_item:hover {
+        color: #a62c2c;
+        background: linear-gradient(90deg, rgba(198, 225, 246, 0.8), rgba(251, 214, 227, 0.8));
+
+    }
+
+    .item.sub_item {
+    }
+
+    .fa-magnifying-glass {
+    }
+
+    .fa-magnifying-glass:hover {
+        transform: rotate(-10deg);
+        font-size: 20px;
+    }
+
+    .logo_item:hover .fa-user {
+        transform: scale(1.2);
+
+    }
+
+    .logo_item:hover .fa-cart-shopping {
+        transform: scale(1.2);
+
+    }
+
+    .SearchItem {
+        display: inline-block;
+    }
+
+    .searchArea {
+        position: absolute;
+        z-index: 5;
+        right: 9%;
+        border: 1px solid pink;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .searchForm {
+        display: flex;
+        border-radius: 5px;
+        justify-content: center;
+    }
+
+    .search {
+        font-size: 20px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        border-radius: 5px 0% 0% 5px / 5px 0% 0% 5px;
+    }
+
+    .btnsearch {
+        border: none;
+        border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+        background-color: rgb(228, 242, 252);
+    }
+
+    .fa-magnifying-glass {
+        font-size: 20px;
+        padding: 5px;
+
+    }
+
+    .personalArea {
+        position: absolute;
+        z-index: 5;
+        top: 300%;
+        left: -200%;
+        list-style: none;
+        display: none;
+    }
+
+    .logo_item:hover .personalArea {
+        display: block;
+        top: 300%;
+    }
+
+    .personal-Item {
+        text-wrap: nowrap;
+        border: 1px solid pink;
+        background-color: rgb(228, 242, 252);
+        padding: 10px 5px;
+    }
+
+    .personal-Item:hover {
+        color: #fff;
+        background-color: #ff6a00;
+
+    }
+
+    .logo_item::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+    }
+
+}

@@ -1,0 +1,10 @@
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+ol, ul {
+    padding-left: 0rem;
+}
+a:hover {
+    color: white;
+}

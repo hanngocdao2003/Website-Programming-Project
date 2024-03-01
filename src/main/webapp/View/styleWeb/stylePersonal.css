@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.infor-user .label {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infor-user .label p {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.infor-user .label .crossbar {
+    width: 100px;
+    height: 8px;
+    background: brown;
+    margin-top: 20px;
+}
+
+.infor-user .information-acc {
+    margin-top: 40px;
+}
+
+.infor-user .information-acc .list-menu {
+    margin: 30px;
+    font-size: 18px;
+    width: 25%;
+}
+
+.infor-user .information-acc .list-menu p {
+    margin-bottom: 30px;
+}
+
+.infor-user .information-acc .list-menu .item{
+    margin: 15px 15px 15px 0px;
+    list-style: none;
+}
+.infor-user .information-acc .list-menu a:hover{
+    color: rgba(19, 86, 138, 0.8);
+}
+
+.infor-user .information-acc {
+    display: flex;
+    flex-direction: column;
+}
+
+.infor-user .information-acc .information-details {
+    margin: 30px;
+    font-size: 18px;
+    width: 75%;
+}
+
+.infor-user .information-acc .information-details .display {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+.information-acc {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.inf_acc {
+    display: grid;
+    grid-template-columns: 20% 40%;
+    row-gap: 10%;
+}
+.inf_acc > label{
+    font-size: 22px;
+}
+.inf_acc > input{
+    font-size: 22px;
+    padding: 5px;
+}
+#birthday{
+    padding: 19px;
+}
+.phone {
+}
+.dateOfBirth {
+}
+.address {
+    display: flex;
+    gap: 10px;
+
+}
+.address > input{
+    font-size: 20px;
+    padding: 5px;
+}
+.buttonOfpage {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.buttonOfpage > button{
+    font-size: 22px;
+    padding: 10px;
+    background-color: #0dcaf0;
+    color: white;
+
+}
+.buttonOfpage > a > button{
+    font-size: 22px;
+    padding: 10px;
+    background-color: #0dcaf0;
+    color: white;
+
+}
+.logOut {
+    font-size: 22px;
+    padding: 5px 10px;
+    background-color: rgb(115, 141, 171);
+    color: white;
+    border-radius: 10px;
+}
+.logOut:hover{
+    background-color: #75625e;
+    cursor: pointer;
+}
+.update {
+    font-size: 22px;
+    padding: 5px 10px;
+    background-color: rgb(115, 141, 171);
+    color: white;
+    border-radius: 10px;
+}
+.update:hover{
+    background-color: #75625e;
+    cursor: pointer;
+}
+.linkpage.Home{
+    background-color: rgba(0, 0, 0, 0);
+}
+.linkpage.Home:hover{
+    background-color: #75625e
+}
+

@@ -1,0 +1,37 @@
+/* Style cho phân trang */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination a {
+    color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+/* Thêm kiểu cho nút Previous và Next */
+.pagination .btnPagination {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    margin: 0 4px;
+}
+
+.pagination .btnPagination:hover {
+    background-color: #45a049;
+}

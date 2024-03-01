@@ -1,0 +1,13 @@
+body{
+    --back: #ecdedd;
+    --font: #75625e;
+    --back-footer: rgba(182, 203, 216, 0.8);
+    --but: rgb(115, 141, 171);
+    --border: #d7a497;
+    --font-o: #c38877;
+    --back-product: #f1d2c8;
+    --butMinus: rgba(132, 153, 164, 0.5);
+    --butMinus2: rgba(132, 153, 164, 0.1);
+    --taskMenu: #A7BCD4FF;
+    --back-admin: #fbeded;
+}

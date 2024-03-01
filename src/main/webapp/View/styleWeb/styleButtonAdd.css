@@ -1,0 +1,76 @@
+@media screen and (min-width: 1025px) {
+
+  /* CSS rules for screens larger than 1024px */
+  form {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+
+  }
+
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0;
+    background: #FF8080FF;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .value-button:hover {
+    cursor: pointer;
+  }
+
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 20px 0 0 20px;
+    background: #FF8080FF;
+    height: auto;
+  }
+
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 20px 20px 0;
+    background: #FF8080FF;
+    height: auto;
+
+  }
+
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 41px;
+    background: #FF8080FF;
+    color: white;
+    outline: none;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  input[type=text]::-webkit-inner-spin-button,
+  input[type=text]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+}

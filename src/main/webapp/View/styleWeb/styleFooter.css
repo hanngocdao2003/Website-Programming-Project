@@ -1,0 +1,128 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift, sans-serif;
+  }
+
+ 
+
+  footer {
+    margin-top: 10%;
+    background-color: var(--back-footer);
+    width: 100%;
+  }
+
+  .contain {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 0px 20px;
+    width: 30%;
+  }
+
+  .content .store {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .content .store img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  h1 {
+    margin: 8px 0px 10px 10px;
+    cursor: pointer;
+  }
+
+  .text {
+    font-size: 15px;
+    margin: 30px 0px 30px 0px;
+  }
+
+  .idea-btn {
+    border-radius: 20px;
+    background-color: rgba(19, 86, 138, 0.8);
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .list-policy {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+
+  .policy-lb {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+    padding-left: 5px;
+  }
+
+  footer .list-policy ul li {
+    list-style: none;
+    line-height: 2;
+    font-size: 15px;
+    padding: 0;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .list-policy .media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .list-policy .media img {
+    max-width: 20px;
+    margin-right: 20px;
+  }
+
+  .support {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    width: 30%;
+  }
+
+  footer .support div {
+    margin: 0px 10px 10px;
+  }
+
+  h5 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+  }
+
+  .support p {
+    font-size: 15px;
+  }
+
+  .image {
+    margin: 25px 25px 0px 25px;
+  }
+  .image img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 15px 0px;
+  }
+  .contain .content .store > h1{
+    font-family: 'Brush Script MT', cursive;
+    color: brown;
+  }

@@ -1,0 +1,54 @@
+.info_panel .thongke_panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_panel .thongke_panel .thongke_main {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.info_panel .thongke_panel .thongke_main .thongke {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--but);
+  border-radius: 5px;
+  position: relative;
+  padding: 20px 0px;
+}
+
+.info_panel .thongke_panel .thongke_main .thongke > .fa-solid {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  font-size: 20px;
+}
+
+.info_panel .thongke_panel .thongke_main .temp {
+  width: 100px;
+  height: 3px;
+  background: var(--back-footer);
+  margin: 10px 0px;
+}
+
+#chart {
+  background: var(--back);
+  border-radius: 10px;
+}
+
+#canvas {
+  width: 80%;
+}
+
+/* Ẩn thẻ thống kê */
+.center .info_panel #panel2 {
+  display: none;
+}

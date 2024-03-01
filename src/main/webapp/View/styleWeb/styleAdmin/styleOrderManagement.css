@@ -1,0 +1,122 @@
+.order-management .search_order form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.order-management .search_order form .search .btn_search {
+    display: flex;
+    justify-content: center;
+}
+
+.order-management .search_order #form_search > div {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.order-management .search_order form .filter #filter-select {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #a62c2c;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.order-management .search_order form .filter #filter-select option {
+    width: 100%;
+
+}
+
+.order-management .search_order .input {
+    appearance: none;
+    border: none;
+    width: 85%;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.center .info_panel .order-management .search_order > #form_search > div > .btn_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.center .info_panel .order-management #info_order {
+    margin: 50px 0px;
+    width: 82%;
+}
+
+#panel6 {
+    width: 100%;
+}
+
+#info_order {
+    width: 100% !important;
+}
+
+#table2 {
+    width: 100%;
+}
+
+#info_order .main_label {
+    width: 100%;
+}
+
+.center .info_panel #panel6 {
+    display: none;
+}
+
+#info_order {
+    border-radius: 10px;
+    border: 2px solid var(--back-footer);
+    padding: 25px;
+}
+
+.label_category h2 {
+    font-size: 30px !important;
+    padding: 15px;
+}
+
+/* Xong panel 4 */
+
+#panel6 .filter {
+    margin: 5% 0px;
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--back-footer);
+    background: var(--butMinus2);
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+}
+
+.status > p {
+    color: var(--font);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+.status > p > form > div {
+    padding: 10px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}

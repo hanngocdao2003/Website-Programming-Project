@@ -1,0 +1,37 @@
+#slider{
+    overflow: hidden;
+    width: 100%;
+}
+#slider div{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider div img{
+    width: 100%;
+    flex-shrink: 0;
+    flex-basis: 100%;
+}
+@keyframes slider{
+      0%{
+          left: 0;
+      }
+      20%{
+          left: -100%;
+      }
+      40%{
+          left: -200%;
+      }
+      60%{
+          left: -300%;
+      }
+      65%{
+        left: -300%;
+      }
+      100%{
+          left: 0;
+      }
+}

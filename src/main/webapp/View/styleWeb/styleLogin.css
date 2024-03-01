@@ -1,0 +1,269 @@
+@media screen and (min-width: 1025px) {
+    /* CSS rules for screens larger than 1024px */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Bahnschrift;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        gap: 20px;
+        background-color: var(--back);
+    }
+
+    .content {
+        width: 60%;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .SignIn_Area,
+    .SignUp_Area {
+        background-color: white;
+        width: 50%;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+
+
+    }
+
+    .logo {
+        width: 100px;
+        font-weight: bold;
+    }
+
+    .formSignIn,
+    .formSignUp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .titleSignIn,
+    .titleSignUp {
+        text-align: center;
+        font-size: 40px;
+        color: var(--font-o);
+        text-transform: uppercase;
+    }
+
+    .NameAcc,
+    .NameUser,
+    .EmailUser {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+
+    }
+
+    .label {
+        font-size: 15px;
+        color: var(--font-o);
+        font-weight: bold;
+    }
+
+    #inputNumPhone,
+    #inputNumPhoneRect,
+    #inputEmail,
+    #inputPass,
+    #inputPassRect,
+    #inputName,
+    #ReinputPass {
+        border: 0;
+        box-shadow: 0 0 3px black;
+        font-size: 20px;
+        padding: 10px 20px 10px 15px;
+        border-radius: 10px;
+        outline: none;
+
+
+    }
+
+    .password_Area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .passAcc {
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        row-gap: 10px;
+
+    }
+
+    .passplace {
+        box-shadow: 0 0 3px black;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #inputPass,
+    #inputPassRect,
+    #ReinputPass {
+        box-shadow: none;
+        width: 80%;
+    }
+
+    .hidden-appear {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        border-radius: 10px;
+        padding: 10px 5px;
+        background-color: white;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    .fa-eye-slash, .fa-eye {
+        font-size: 20px;
+        padding: 0px 5px;
+        right: 0;
+        color: var(--font-o);
+
+
+    }
+
+    .buttonSubmit {
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        font-size: 20px;
+        padding: 15px 30px;
+        border-radius: 20px;
+        background-color: var(--border);
+        color: white;
+    }
+
+    .button:hover {
+        color: white;
+    }
+
+    .forgotPass {
+        position: absolute;
+        bottom: -1px;
+        right: 5px;
+        text-decoration: none;
+        font-style: italic;
+    }
+
+    .remember {
+        margin-top: 10px;
+    }
+
+    .create {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .createAcc {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+
+    .titleSignUp {
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .Register {
+        margin-top: 0;
+    }
+
+    .intro {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(255, 196, 185, 0.7), rgb(255, 183, 183)), url(../../Image/Login_Image/pic1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        border-radius: 10px;
+        transition: right 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .hello {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome {
+        color: white;
+        font-size: 50px;
+    }
+
+    .letterWelcome {
+        color: white;
+        font-size: 20px;
+    }
+
+    .undo {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        gap: 5px;
+
+    }
+
+    .fa-share {
+        transform: rotate(180deg);
+    }
+
+    .first {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .back {
+        color: white;
+        display: flex;
+        text-decoration: none;
+        justify-content: baseline;
+    }
+
+    .back > .fa-solid.fa-house {
+        margin-right: 10px;
+
+    }
+}

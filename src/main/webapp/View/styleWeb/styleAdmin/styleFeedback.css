@@ -1,0 +1,78 @@
+.reply 
+.search-reply 
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reply 
+.search-reply 
+form 
+.search 
+.btn_search {
+    display: flex;
+    justify-content: center;
+}
+
+.reply 
+.search-reply 
+#form_search > div {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.reply .search-reply form .filter #filter-select {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.reply .search-reply form .filter #filter-select option {
+    width: 100%;
+
+}
+
+.reply .search-reply .input {
+    appearance: none;
+    border: none;
+    width: 85%;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.center .info_panel .reply .search-reply > #form_search > div > .btn_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.center .info_panel .reply #content {
+    margin: 50px 0px;
+}
+
+.center .info_panel #panel7 {
+    display: none;
+}
+
+#panel7 {
+    width: 100%;
+}
+
+#content {
+    border-radius: 10px;
+    border: 2px solid var(--back-footer);
+    padding: 25px;
+}
+
+/* Xong panel 4 */

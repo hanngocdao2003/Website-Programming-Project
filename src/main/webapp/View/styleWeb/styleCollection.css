@@ -1,0 +1,24 @@
+.CollectionOfStore {
+    margin-top: 5%;
+    padding: 20px;
+}
+.Filter-SortCollection{
+    width: 20%;
+
+}
+.Filter{
+    display: flex;
+    flex-direction: column;
+}
+.Filter > span{
+   font-size: 30px;
+   margin-bottom: 2%;
+}
+.AllImageOfProduct {
+}
+.Home{
+    background-color: var(--but);
+}
+.Collection{
+    background-color: var(--font);
+}

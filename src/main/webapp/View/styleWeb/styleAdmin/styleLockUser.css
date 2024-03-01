@@ -1,0 +1,16 @@
+.firstPanel{
+    width: 82%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.firstPanel>a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--but);
+}

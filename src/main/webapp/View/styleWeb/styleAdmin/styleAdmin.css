@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    background: var(--back-admin);
+    position: relative;
+
+}
+#logOut{
+    position: absolute;
+    right: 10%;
+}
+.logOut {
+    font-size: 22px;
+    padding: 5px 10px;
+    background-color: rgb(115, 141, 171);
+    color: white;
+    border-radius: 10px;
+}
+.logOut:hover{
+    background-color: #75625e;
+    cursor: pointer;
+}
+
+.logo {
+    background: var(--back-product);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--border);
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo > img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo > h3 {
+    color: var(--font-o);
+    font-size: 30px;
+}
+
+.center .left_panel .menu_bar .bar {
+    display: flex;
+    flex-direction: column;
+    background: var(--back-product);
+    width: 20%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    border-top: 2px solid var(--border);
+    position: fixed;
+    top: calc(12% + -5px);
+}
+
+.logo_admin {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    border: 5px solid var(--border);
+    margin: 5%;
+
+}
+
+.center .left_panel .menu_bar .bar a > button, .button_add_product {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--butMinus2);
+    color: var(--font);
+    border: 2px solid var(--butMinus);
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.center .left_panel .menu_bar .bar .button_add_product:hover {
+    color: var(--border);
+}
+
+.center .left_panel .menu_bar .bar .menu_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center .left_panel .menu_bar .bar .menu_nav .menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 15px 0px;
+}
+
+.center .left_panel .menu_bar .bar .menu_nav .menu .item {
+    color: var(--font);
+    padding: 15px;
+    border-top: 1px solid var(--border);
+    cursor: pointer;
+}
+
+.center .left_panel .menu_bar .bar .menu_nav .menu .item > a {
+    color: var(--font);
+    text-decoration: none;
+}
+
+.center .left_panel .menu_bar .bar .menu_nav .menu .item:hover {
+    border: 2px solid var(--font);
+    border-radius: 20px;
+    color: white !important;
+    background-color: var(--font);
+}
+
+.bar .menu_nav .menu .item.active {
+    border: 2px solid var(--font);
+    border-radius: 20px;
+    color: white !important;
+    background-color: var(--font);
+}
+.linkUpload{
+    text-decoration: none;
+}
+
+/* .center .left_panel .menu_bar .bar .button_logout {
+    margin-bottom: 100%;
+} */
+
+/* .center {
+    display: flex;
+} */
+
+/* .left_panel {
+    width: 18%;
+} */
+
+.center .info_panel {
+    width: 82%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+/* Xong phần khung trang admin */
+#panel1 {
+    display: block;
+}
+
+#panel1 > h2 {
+    font-size: 40px !important;
+    font-family: 'Pacifico';
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background: var(--butMinus);
+}
+
+tr:nth-child(odd) {
+    background: var(--butMinus2);
+}
+
+th {
+    background: var(--font);
+    color: var(--back-product);
+}
+
+tr:hover {
+    background-color: var(--but);
+    color: white;
+    cursor: pointer;
+}
+
+select {
+    background-color: var(--but);
+    color: white;
+}
+
+select:hover {
+    cursor: pointer;
+
+}
+
+option {
+    font-size: 25px;
+    background-color: var(--back);
+    color: var(--but);
+    border: 1px solid var(--but);
+}
+
+.logo_admin i {
+    font-size: 35px !important;
+}
+
+.logo_admin h2 {
+    font-size: 35px !important;
+}
+
+input[type = "checkbox"] {
+    width: 20px;
+    height: 20px;
+}

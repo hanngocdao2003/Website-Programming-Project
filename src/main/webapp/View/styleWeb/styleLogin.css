@@ -266,4 +266,35 @@
         margin-right: 10px;
 
     }
+
+    #other {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #other .line {
+        height: 2px;
+        width: 50%;
+        background-color: var(--font);
+        margin: 5px auto;
+    }
+
+    #other span {
+        font-size: 20px;
+        color: var(--font-o);
+    }
+
+    #other div {
+        display: flex;
+        flex-direction: row;
+        gap: 25%;
+        margin-top: 3%;
+    }
+
+    #other div i {
+        font-size: 40px;
+        color: var(--font-o);
+    }
 }

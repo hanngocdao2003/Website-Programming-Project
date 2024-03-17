@@ -124,7 +124,14 @@
             <span><%= password%></span>
             <%}%>
             <div class="buttonSubmit Register">
-                <input type="submit" class="button" value="Đăng ký">
+                <input type="submit" class="button" value="Tạo tài khoản">
+            </div>
+            <div id="other">
+                <span>hoặc đăng ký bằng</span>
+                <div>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
             </div>
         </form>
     </div>
